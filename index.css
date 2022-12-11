@@ -7,20 +7,23 @@
   text-decoration: none
 }
 body {
-background: black;
-text-align: center;
-font-family: sans-serif;
+  background: black;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .area {
   width: 80%;
   margin-inline: auto;
   max-width: 400px;
-  margin-top: 15px;
+  text-align: center;
 }
 img { 
-margin-top: 50px;
-height: 250px;
-opacity: 0.8;
+  margin-top: 50px;
+  height: 250px;
+  opacity: 0.8;
 }
 h1 {
   margin-bottom: 10px;
@@ -37,11 +40,11 @@ button {
   font-size: 20px;
 }
 input {
-    display: block;
-    width: 100%;
-    padding: 20px;
-    font-size: 20px;
-    border-radius: 5px 5px 0 0;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px 5px 0 0;
 }
 button {
   border: none;
