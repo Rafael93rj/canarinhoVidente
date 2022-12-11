@@ -22,7 +22,7 @@ const respostas = [ "Certeza!",
   "Sinais apontam que sim.",]
 
 function fazerPergunta() {
-  if(inputPergunta.value == "", " ") {alert("Pergunta inválida!")
+  if(inputPergunta.value == "") {alert("Pergunta inválida!")
   return
   }
 buttonPerguntar.setAttribute("disalble", true)
